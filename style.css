@@ -138,3 +138,15 @@ nav{
 .image10{
     background-image: url("images/image-10.png");
 }
+.exclusive div{
+    position: relative;
+}
+.exclusive div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
