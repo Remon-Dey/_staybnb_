@@ -118,7 +118,7 @@ nav{
     font-weight: 500;
     color: #333;
 }
-.image_part{
+.exclusive_images{
     margin: 0px 100px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
@@ -139,10 +139,10 @@ nav{
 .image10{
     background-image: url("images/image-10.png");
 }
-.exclusive div{
+.part_of_services div{
     position: relative;
 }
-.exclusive div span{
+.part_of_services div span{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -180,3 +180,32 @@ nav{
     margin-top: 310px;
     font-weight: 500
 }
+/* ------call to action------ */
+.cta{
+    margin: 100px 100px ;
+    background-image: linear-gradient(to right,#3f2321,transparent),url(images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+.cta h3{
+    font-size: 3vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.cta_button{
+    background-color: #f16f6f;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
