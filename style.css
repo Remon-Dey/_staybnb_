@@ -90,6 +90,7 @@ nav{
 .searchbar form label{
     font-weight: 600;
 }
+/* ------Exclusive part------ */
 .image{
     background-size: cover;
     height: 100px;
@@ -149,4 +150,33 @@ nav{
     text-align: center;
     color: #fff;
     font-weight: 400;
+}
+/* --------Treding Places--------- */
+.trending{
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.dubai_image{
+    background-image: url("images/dubai.png")
+}
+.new_york_image{
+    background-image: url("images/new-york.png")
+}
+.paris_image{
+    background-image: url("images/paris.png")
+}
+.new_delhi_image{
+    background-image: url("images/new-delhi.png")
+}
+.trending_images{
+    margin: 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+}
+.trending h3{
+    margin-top: 310px;
+    font-weight: 500
 }
