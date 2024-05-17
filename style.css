@@ -74,7 +74,7 @@ nav{
 
 }
 .searchbar form button{
-    background: #f16f6f;
+    background: #ff5361;
     width: 55px;
     height: 55px;
     border-radius: 50px;
@@ -200,7 +200,7 @@ nav{
     margin: 10px 0;
 }
 .cta_button{
-    background-color: #f16f6f;
+    background-color: #ff5361;
     color: #fff;
     text-decoration: none;
     padding: 12px 30px;
@@ -240,4 +240,64 @@ nav{
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 26px;
+}
+.start_button{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    display: block;
+    max-width: 350px;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+/* -----about message----- */
+.about_msg{
+    text-align: center;
+    margin: 80px 0px;
+    color: #333;
+    font-size: 17px;
+}
+.about_msg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+/* ----footer---- */
+.footer{
+    margin: 80px 0px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0px;
+}
+.footer p{
+    padding-bottom: 15px;
+}
+.active{
+    position: relative;
+}
+.active::after{
+    position: absolute;
+    content:'';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+    border-radius: 2px;
 }
