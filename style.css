@@ -182,7 +182,7 @@ nav{
 }
 /* ------call to action------ */
 .cta{
-    margin: 100px 100px ;
+    margin: 100px 100px 20px 100px;
     background-image: linear-gradient(to right,#3f2321,transparent),url(images/banner-2.png);
     background-size: cover;
     background-position: center;
@@ -208,4 +208,36 @@ nav{
     display: inline-block;
     border-radius: 8px;
 }
-
+/* ------Travellers Stories------ */
+.travellers_stories{
+    margin: 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+}
+.tvs{
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+.one{
+    background-image: url("images/story-1.png");
+}
+.two{
+    background-image: url("images/story-2.png");
+}
+.three{
+    background-image: url("images/story-3.png");
+}
+.travellers_stories p{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 26px;
+}
