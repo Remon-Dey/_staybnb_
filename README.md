@@ -3,4 +3,5 @@ Staybnb is a travel and accommodation platform built with HTML and CSS. It allow
 Features
 
 Browse Stays: Discover accommodations in cities like London, Switzerland, and New York.
+
 Travel Stories & Guides: Learn budget tips and unique experiences.
